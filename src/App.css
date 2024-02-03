@@ -59,8 +59,9 @@
   align-items: center;
   padding-top: 15px;
 }
-.nav--items ul li a {
+.nav--itmes ul li a {
   text-decoration: none;
+  cursor: pointer;
 }
 .navbar--content {
   text-decoration: none;
@@ -72,3 +73,145 @@
   color: rgb(69, 87, 114);
 }
 /* navbar section ends  */
+
+/* skills section start  */
+.skills--section {
+  padding: 80px 0px;
+}
+.skills--section--heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 75px;
+}
+.skills--section--subheading {
+  font-size: 20px;
+  font-weight: 500;
+}
+.skills--section--card {
+  background-color: var(--secondary);
+  padding: 50px;
+  border-radius: 10px;
+  border-bottom: 4px solid transparent;
+  transition: border-bottom 0.3 ease;
+}
+.skills--section--card:hover {
+  border-bottom: 4px solid var(--primary);
+}
+.skills-section--img {
+  padding: 20px 0;
+}
+/* skills section end  */
+
+/* about section start  */
+.about--section--img {
+  width: 100%;
+}
+.about--section--img img {
+  width: 80%;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color: pink;
+}
+/* about section ends  */
+
+/* portfolio section start  */
+.portfolio {
+  padding: 150px 0px;
+}
+.portfolio--container--box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: pink; */
+}
+.portfolio--section--card {
+  width: 100%;
+}
+.portfolio--section--card img {
+  width: 100%;
+}
+.portfolio--section--card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.portfolio--section--card--content {
+  padding: 20px;
+}
+.portfolio--link a {
+  color: var(--primary);
+}
+/* portfolio section ends */
+
+/* testimonial section start  */
+.testimonial {
+  padding-bottom: 100px;
+}
+.testimonial--card {
+  /* background-color: pink; */
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid var(--primary);
+}
+.author {
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+}
+.author-details {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+/* testimonial section ends  */
+
+/* footer section start  */
+.footer-wrapper {
+  background-color: var(--secondary);
+  padding: 50px 0px;
+}
+
+.footer-link-container {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: pink; */
+  align-items: center;
+}
+
+.footer-items ul {
+  display: flex;
+  list-style: none;
+  padding-top: 10px;
+}
+.footer-items ul li {
+  padding: 10px 30px;
+}
+.footer-items ul li a {
+  cursor: pointer;
+}
+.footer-social-icons ul {
+  display: flex;
+  list-style: none;
+}
+.footer-social-icons ul li {
+  padding: 10px 10px;
+}
+.footer-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.footer-bottom-links {
+  display: flex;
+}
+.footer-bottom-links li {
+  padding: 0px 10px;
+  list-style: none;
+}
+.footer-bottom-links li a {
+  color: var(--primary);
+}
+.made-with-footer {
+  font-size: 18px;
+  font-weight: 400;
+}
+/* footer section ends  */
